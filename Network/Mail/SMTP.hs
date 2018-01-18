@@ -20,6 +20,7 @@ module Network.Mail.SMTP
       -- * Network.Mail.Mime's sendmail interface (reexports)
     , sendmail
     , sendmailCustom
+    , sendRenderedMail
     , renderSendMail
     , renderSendMailCustom
 
